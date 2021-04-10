@@ -154,6 +154,7 @@ void remove_value(char *cid)
             cid=fgets(buf,sizeof(buf),stdin);
             remove_value(cid);
         }
+        return;
 	}
         
     int key_in_hash=findkey(key);
@@ -186,6 +187,7 @@ void remove_value(char *cid)
             cid=fgets(buf,sizeof(buf),stdin);
             remove_value(cid);
         }
+        return;
 	}
 }
 
